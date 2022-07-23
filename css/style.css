@@ -9,6 +9,7 @@
 }
 body {
   background-image: url('/images/bg-desktop.svg');
+  padding: 10% 1%;
 }
 .main{
   width: 100%;
@@ -18,7 +19,6 @@ body {
   background-color: var(--Violet);
   height: auto;
   padding: 2em;
-  padding: 50% 2em;
   margin-bottom: 2em;
   overflow: auto;
 }
