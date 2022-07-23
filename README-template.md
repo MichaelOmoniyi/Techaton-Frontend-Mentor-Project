@@ -28,15 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](images/Screenshot_20220723-211136.png)
 
 ### Links
 
@@ -50,13 +42,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://googlefontd.com/)
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -65,17 +53,34 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <i id="facebook" class="fa-brands fa-facebook-f"></i>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+  :root {
+  --Violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%)
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.icon i:hover{
+  background-color: var(--softMagenta);
+  border-color: var(--softMagenta);
 }
+@media only screen and (max-width: 375px;){
+  .container{
+    flex-direction: column;
+    height: auto;
+  }
+  .image{
+    width: 100%;
+  }
+  .main{
+    background-image: url('/images/bg-mobile.svg');
+    background-size: cover;
+    background-repeat: none;
+    background-color: var(--Violet);
+    width: 100%;
+  }
+}    
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
