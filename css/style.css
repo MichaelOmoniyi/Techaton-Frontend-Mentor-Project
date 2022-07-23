@@ -9,7 +9,6 @@
 }
 body {
   background-image: url('/images/bg-desktop.svg');
-  padding: 2em 0.5em;
 }
 .main{
   width: 100%;
@@ -21,6 +20,7 @@ body {
   padding: 2em;
   padding: 50% 2em;
   margin-bottom: 2em;
+  overflow: auto;
 }
 header img{
   width: 20%;
