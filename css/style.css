@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-repeat: none;
   background-color: var(--Violet);
-  height: 80vh;
+  height: auto;
   padding: 2em;
   padding: 50% 2em;
   margin-bottom: 2em;
