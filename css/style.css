@@ -97,7 +97,7 @@ footer {
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-@media only screen and (max-width: 375px;){
+@media only screen and (max-width: 375px){
   .container{
     flex-direction: column;
     height: auto;
@@ -114,7 +114,7 @@ footer {
     width: 100%;
   }
 }    
-@media only screen and (min-width: 1440px;){
+@media only screen and (min-width: 1440px){
   .main{
     background-image: url('/images/bg-desktop.svg');
     background-size: cover;
