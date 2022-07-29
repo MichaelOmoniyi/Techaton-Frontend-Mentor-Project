@@ -21,6 +21,7 @@ body {
   padding: 2em;
   margin-bottom: 2em;
   overflow: auto;
+  box-sizing: border-box;
 }
 header img{
   width: 20%;
@@ -31,6 +32,7 @@ header img{
   color: white;
   font-weight: 400px;
   margin-bottom: 2em;
+  width: 100%;
 }
 .image{
   width: 50%;
